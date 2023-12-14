@@ -1,5 +1,5 @@
 # Use the official Go image as the base image
-FROM golang:1.17-alpine
+FROM golang:1.21.4-alpine
 
 # Set the working directory inside the container
 WORKDIR /usr/src/backend-service
